@@ -1,0 +1,22 @@
+{
+  "id": "./tool.html",
+  "name": "2D Artist",
+  "short_name": "2D Artist",
+  "description": "Pixel art and texture editor with layers, editable text, a selection layer, brushes and Minecraft Bedrock texture tools. Works offline.",
+  "start_url": "tool.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#14161d",
+  "theme_color": "#1b1e27",
+  "categories": ["graphics", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    { "src": "assets/shot-editor.png", "sizes": "1360x940", "type": "image/png", "form_factor": "wide", "label": "Editing a stone and ore texture with layers" }
+  ]
+}
