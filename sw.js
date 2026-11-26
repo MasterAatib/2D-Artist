@@ -5,9 +5,9 @@
  * There is no version number to bump when you update the app: just commit the new tool.html.
  * Only change CACHE below if you add, rename or remove files in FILES.
  */
-const CACHE = '2d-artist-files-2';
+const CACHE = '2d-artist-files-3';
 const FILES = ['./', 'index.html', 'tool.html', 'manifest.webmanifest', 'assets/pixelify-sans.woff2',
-  'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'];
+  'icons/icon-96.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'];
 const SLOW_MS = 4000;
 
 self.addEventListener('install', (event) => {
