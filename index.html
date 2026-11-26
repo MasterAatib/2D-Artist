@@ -357,7 +357,7 @@ var REPO = '';
   var base = 'https://github.com/' + repo;
   function set(sel, href) { document.querySelectorAll(sel).forEach(function (a) { a.href = href; a.hidden = false; }); }
   set('.js-repo', base); set('.js-releases', base + '/releases'); set('.js-issues', base + '/issues');
-  set('.js-win', base + '/releases/latest/download/2D-Artist-win64.zip');
+  set('.js-win', base + '/releases/download/V1.0.0/2D.Artist.App.V-1.zip');
   document.querySelectorAll('.js-issues-q').forEach(function (d) { d.hidden = false; });
 })();
 
